@@ -14,6 +14,22 @@ resultado/inconsistencias.xlsx
 resultado/resumo.xlsx
 ```
 
+## Capturas da demonstração
+
+As imagens abaixo mostram o fluxo real da ferramenta com os dados fictícios incluídos neste repositório.
+
+**Resumo operacional:** quatro arquivos lidos, 72 linhas analisadas, 67 registros válidos e cinco inconsistências.
+
+[![Resumo operacional gerado no Excel](imagens/resumo-operacional.png)](imagens/resumo-operacional.png)
+
+**Inconsistências:** cada linha descartada é acompanhada do arquivo, campo, motivo e ação.
+
+[![Planilha de inconsistências gerada no Excel](imagens/inconsistencias.png)](imagens/inconsistencias.png)
+
+**Interface:** seleção da pasta de entrada e processamento dos relatórios.
+
+[![Interface da automação de relatórios](imagens/interface-automacao-relatorios.png)](imagens/interface-automacao-relatorios.png)
+
 ## Como usar
 
 1. Instale Python 3.10 ou superior e execute `pip install -r requirements.txt` uma vez.
